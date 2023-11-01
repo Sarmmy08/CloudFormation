@@ -1,0 +1,1 @@
+aws cloudformation create-stack --stack-name dev-network-infa-pf --template-body file://network-infra.yaml --parameters file://dev-parameter-file.json
